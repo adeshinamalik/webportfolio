@@ -1,5 +1,4 @@
-
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { Github, ExternalLink } from "lucide-react";
 
 interface Project {
@@ -16,63 +15,63 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "NFT Marketplace",
-    description: "A full-featured NFT marketplace built with Next.js, Ethereum, and IPFS",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=NFT+Marketplace",
-    tags: ["Next.js", "Ethereum", "Smart Contracts", "IPFS", "Tailwind CSS"],
-    type: "web3",
-    github: "https://github.com",
-    demo: "https://example.com"
+    title: "EstatePulse",
+    description: "Real estate platform with Firebase authentication and responsive UI using React.js and Tailwind CSS. Features login/logout and real-time data updates.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=EstatePulse",
+    tags: ["React.js", "Firebase", "Tailwind CSS", "Authentication"],
+    type: "web2",
+    github: "https://github.com/adeshinamalik/estatepulse",
+    demo: "https://estatepulse.vercel.app"
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "Modern portfolio website with 3D animations and interactive elements",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=Portfolio",
-    tags: ["React", "Three.js", "GSAP", "Tailwind CSS"],
+    title: "NaijaProperty",
+    description: "Property listing site with search filters and modern UI, optimized for performance and cross-browser compatibility.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=NaijaProperty",
+    tags: ["JavaScript", "CSS", "Responsive Design", "Search Filters"],
     type: "web2",
-    github: "https://github.com",
-    demo: "https://example.com"
+    github: "https://github.com/adeshinamalik/naijaproperty",
+    demo: "https://naijaproperty.vercel.app"
   },
   {
     id: 3,
-    title: "DeFi Dashboard",
-    description: "Dashboard for DeFi protocols with real-time data and portfolio tracking",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=DeFi+Dashboard",
-    tags: ["React", "Web3.js", "Ethereum", "ChartJS", "MUI"],
-    type: "web3",
-    github: "https://github.com",
-    demo: "https://example.com"
+    title: "SoccerPredictor",
+    description: "Soccer prediction platform with featured pools, how it works sections, and leaderboards using React.js for dynamic interfaces.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=SoccerPredictor",
+    tags: ["React.js", "Dynamic UI", "Leaderboards"],
+    type: "web2",
+    github: "https://github.com/adeshinamalik/soccerpredictor",
+    demo: "https://soccerpredictor.vercel.app"
   },
   {
     id: 4,
-    title: "E-commerce Platform",
-    description: "Full-stack e-commerce platform with product management and payment processing",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=E-commerce",
-    tags: ["Next.js", "Node.js", "MongoDB", "Stripe", "Redux"],
+    title: "UnilorinLawpress",
+    description: "Dynamic website for Law Students' Press Society with blog, gallery, and social media integration.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=UnilorinLawpress",
+    tags: ["HTML", "CSS", "JavaScript", "CMS"],
     type: "web2",
-    github: "https://github.com",
-    demo: "https://example.com"
+    github: "https://github.com/adeshinamalik/lsps-hub-legal",
+    demo: "https://unilorinlawpress.vercel.app"
   },
   {
     id: 5,
-    title: "DAO Governance Platform",
-    description: "Platform for creating and managing DAOs with voting mechanisms",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=DAO+Platform",
-    tags: ["React", "Solidity", "TheGraph", "Hardhat", "IPFS"],
-    type: "web3",
-    github: "https://github.com",
-    demo: "https://example.com"
+    title: "InnovativeFarmers",
+    description: "Web platform for agricultural management with responsive design and integrated data analytics for farm insights.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=InnovativeFarmers",
+    tags: ["React", "Data Analytics", "Responsive Design"],
+    type: "web2",
+    github: "https://github.com/adeshinamalik/innovativefarmers",
+    demo: "https://innovativefarmers.vercel.app"
   },
   {
     id: 6,
-    title: "Music Streaming App",
-    description: "Music streaming application with custom audio player and playlists",
-    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=Music+App",
-    tags: ["React", "Node.js", "MongoDB", "AWS S3", "WebAudio API"],
-    type: "web2",
-    github: "https://github.com",
-    demo: "https://example.com"
+    title: "IoT Poultry Management",
+    description: "IoT system and web app for real-time poultry farm monitoring and automation, featuring environmental control and health monitoring.",
+    image: "https://via.placeholder.com/600x400/1E1E2E/FFFFFF?text=IoT+Poultry",
+    tags: ["IoT", "Web App", "Real-time Data", "Automation"],
+    type: "web3",
+    github: "https://github.com/adeshinamalik",
+    demo: "#"
   }
 ];
 

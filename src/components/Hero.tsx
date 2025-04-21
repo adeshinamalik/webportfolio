@@ -54,18 +54,18 @@ const Hero = () => {
       
       <div className="text-center max-w-5xl z-10 animate-slide-up">
         <p className="text-sm md:text-base uppercase tracking-widest mb-3 md:mb-5 text-muted-foreground">
-          Frontend & Web3 Developer
+          Frontend Developer & IoT Engineer
         </p>
         
         <h1 
           ref={nameRef}
           className="text-4xl md:text-7xl font-bold tracking-tight mb-4 md:mb-8 text-gradient neon-glow"
         >
-          Building the Future of the Web
+          Hi, I'm Ahmed Malik
         </h1>
         
         <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12">
-          I create cutting-edge digital experiences using modern frontend technologies and blockchain innovation.
+          Innovative web designer and developer specializing in responsive, user-centric web applications. With expertise in mechatronics and IoT, I'm delivering cutting-edge web and Web3 solutions.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
