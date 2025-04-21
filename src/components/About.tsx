@@ -1,3 +1,4 @@
+
 import { useRef } from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 
@@ -81,7 +82,7 @@ const About = () => {
             <div className="aspect-square rounded-xl overflow-hidden glass-morphism flex items-center justify-center w-full">
               <Avatar className="w-36 h-36 md:w-44 md:h-44 text-6xl mx-auto">
                 <AvatarImage 
-                  src="/lovable-uploads/0014c797-97a9-4ef8-970f-7fbbd8d7b43b.png"
+                  src="/lovable-uploads/aaafab71-735b-406d-b4e0-66acfb37f7f7.png"
                   alt="Ahmed Malik Photo" 
                   className="object-cover"
                 />
@@ -148,14 +149,14 @@ const About = () => {
               <div className="aspect-video rounded-lg overflow-hidden border border-white/10 glass-morphism flex items-center justify-center relative">
                 <video 
                   controls 
-                  poster="/lovable-uploads/0014c797-97a9-4ef8-970f-7fbbd8d7b43b.png"
+                  poster="/lovable-uploads/aaafab71-735b-406d-b4e0-66acfb37f7f7.png"
                   className="w-full h-full object-cover"
                 >
                   <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <span className="absolute top-0 left-0 text-xs bg-black/30 text-white px-2 py-1 rounded-br-lg z-10">
-                  This is a placeholder video. I’ll update with my real intro soon!
+                  This is a placeholder video. I'll update with my real intro soon!
                 </span>
               </div>
             </div>
