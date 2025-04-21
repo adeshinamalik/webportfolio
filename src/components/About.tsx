@@ -5,29 +5,29 @@ import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 const Timeline = () => {
   const timelineItems = [
     { 
-      year: "2024", 
-      title: "Frontend Developer at Forzar Mazars", 
-      description: "Developed a Procurement Management App using React.js, with responsive UI and data visualization dashboards." 
-    },
-    { 
-      year: "2024", 
-      title: "QA Manual Tester at MyXellia Inc.", 
-      description: "Conducted manual testing for web and mobile apps, ensuring quality and resolving bugs with developers." 
-    },
-    { 
-      year: "2023", 
-      title: "Web Developer at Federal University", 
-      description: "Built an IoT-based Poultry Management System, integrating sensors and web app for farm automation." 
-    },
-    { 
-      year: "2023", 
-      title: "Bachelor's in Mechatronics Engineering", 
-      description: "Graduated from Federal University of Agriculture, Abeokuta with focus on Software Engineering and IoT." 
+      year: "2018", 
+      title: "Started Web Development", 
+      description: "Beginning of my journey in frontend development with HTML, CSS, JavaScript" 
     },
     { 
       year: "2019", 
-      title: "Started University", 
-      description: "Began journey in Mechatronics Engineering, combining software and hardware expertise." 
+      title: "Mastered React", 
+      description: "Gained expertise in React and modern frontend frameworks" 
+    },
+    { 
+      year: "2020", 
+      title: "Entered Web3 Space", 
+      description: "Started learning Blockchain technology and Solidity" 
+    },
+    { 
+      year: "2022", 
+      title: "Full Stack Skills", 
+      description: "Expanded skill set to include full stack development with NextJS and Node" 
+    },
+    { 
+      year: "2023", 
+      title: "Advanced Web3 Projects", 
+      description: "Created DApps, smart contracts, and NFT marketplaces"
     },
   ];
 
@@ -45,7 +45,7 @@ const Timeline = () => {
           <div className="flex-shrink-0 w-20 h-20 rounded-full glass-morphism flex items-center justify-center text-gradient font-bold">
             {item.year}
           </div>
-          
+
           <div className={`relative ${
             index !== timelineItems.length - 1 ? 'before:content-[\'\'] before:absolute before:w-px before:bg-gradient-to-b before:from-white/10 before:to-transparent before:h-16 md:before:h-24 before:top-full' : ''
           } ${
@@ -62,7 +62,7 @@ const Timeline = () => {
 
 const About = () => {
   const containerRef = useRef<HTMLElement>(null);
-  
+
   return (
     <section 
       id="about" 
@@ -75,14 +75,14 @@ const About = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-gradient">About Me</h2>
           <div className="h-1 w-16 bg-gradient-to-r from-neon-blue to-transparent mx-auto"></div>
         </div>
-        
+
         <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
           {/* LEFT: Profile photo and social icons */}
           <div className="space-y-6 animate-slide-right flex flex-col items-center">
             <div className="aspect-square rounded-xl overflow-hidden glass-morphism flex items-center justify-center w-full">
               <Avatar className="w-36 h-36 md:w-44 md:h-44 text-6xl mx-auto">
                 <AvatarImage 
-                  src="/lovable-uploads/6d7d817b-cc1a-4210-9dbc-7077fc20f967.png" 
+                  src="/lovable-uploads/d5dd2719-1c0c-4de2-a474-c5ca06b2fd9e.png"
                   alt="Ahmed Malik Photo" 
                   className="object-cover"
                 />
@@ -101,7 +101,7 @@ const About = () => {
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                 </svg>
               </a>
-              
+
               <a 
                 href="https://linkedin.com/in/malikatonda" 
                 target="_blank" 
@@ -115,7 +115,7 @@ const About = () => {
                   <circle cx="4" cy="4" r="2"></circle>
                 </svg>
               </a>
-              
+
               <a 
                 href="https://twitter.com/atondaahmed" 
                 target="_blank" 
@@ -129,36 +129,34 @@ const About = () => {
               </a>
             </div>
           </div>
-          
+
           {/* RIGHT: Bio, intro, and video */}
           <div className="space-y-8 animate-slide-left">
             <p className="text-muted-foreground leading-relaxed">
-              I'm an innovative web designer and developer specializing in responsive, user-centric web applications. 
-              With a background in Mechatronics Engineering and IoT, I'm passionate about delivering cutting-edge web and Web3 solutions for modern businesses.
+              I'm Ahmed Malik, a passionate Web Designer and Developer specializing in responsive, user-centric web applications. With a background in Mechatronics and IoT, I’m delivering cutting-edge web and Web3 solutions for modern businesses. I love creating impactful projects, leveraging technology to solve real-world problems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Located in Lagos, Nigeria, I combine my expertise in frontend development with IoT knowledge to create unique digital experiences. 
-              I hold a Bachelor's in Mechatronics Engineering with a focus on Software Engineering and IoT systems.
+              My journey into blockchain and Web3 allows me to bridge traditional web development with decentralized apps (dApps) and smart contracts. I’m excited about building efficient, scalable solutions and collaborating with dynamic teams.
             </p>
-            
+
             {/* Video introduction */}
             <div className="pt-2 mb-6">
               <h3 className="font-bold mb-2">Video Introduction</h3>
               <div className="aspect-video rounded-lg overflow-hidden border border-white/10 glass-morphism flex items-center justify-center relative">
                 <video 
                   controls 
-                  poster="/lovable-uploads/6d7d817b-cc1a-4210-9dbc-7077fc20f967.png"
+                  poster="/lovable-uploads/d5dd2719-1c0c-4de2-a474-c5ca06b2fd9e.png"
                   className="w-full h-full object-cover"
                 >
                   <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <span className="absolute top-0 left-0 text-xs bg-black/30 text-white px-2 py-1 rounded-br-lg z-10">
-                  This is a placeholder video. I'll update with my real intro soon!
+                  This is a placeholder video. I’ll update with my real intro soon!
                 </span>
               </div>
             </div>
-            
+
             <div className="pt-4">
               <h3 className="font-bold mb-4">My Journey</h3>
               <Timeline />
@@ -171,3 +169,4 @@ const About = () => {
 };
 
 export default About;
+
