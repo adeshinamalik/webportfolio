@@ -1,4 +1,3 @@
-
 import { useRef } from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 
@@ -82,7 +81,7 @@ const About = () => {
             <div className="aspect-square rounded-xl overflow-hidden glass-morphism flex items-center justify-center w-full">
               <Avatar className="w-36 h-36 md:w-44 md:h-44 text-6xl mx-auto">
                 <AvatarImage 
-                  src="/lovable-uploads/d5dd2719-1c0c-4de2-a474-c5ca06b2fd9e.png"
+                  src="/lovable-uploads/0014c797-97a9-4ef8-970f-7fbbd8d7b43b.png"
                   alt="Ahmed Malik Photo" 
                   className="object-cover"
                 />
@@ -132,11 +131,15 @@ const About = () => {
 
           {/* RIGHT: Bio, intro, and video */}
           <div className="space-y-8 animate-slide-left">
+            <p className="text-xl font-bold text-gradient leading-snug select-none pointer-events-none">Hi, I'm Ahmed Malik</p>
             <p className="text-muted-foreground leading-relaxed">
-              I'm Ahmed Malik, a passionate Web Designer and Developer specializing in responsive, user-centric web applications. With a background in Mechatronics and IoT, I’m delivering cutting-edge web and Web3 solutions for modern businesses. I love creating impactful projects, leveraging technology to solve real-world problems.
+              Innovative web designer and developer specializing in responsive, user-centric web applications.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My journey into blockchain and Web3 allows me to bridge traditional web development with decentralized apps (dApps) and smart contracts. I’m excited about building efficient, scalable solutions and collaborating with dynamic teams.
+              I hold a Bachelor's in Mechatronics Engineering with a focus on Software Engineering and IoT systems.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              I'm passionate about creating impactful projects by leveraging technology to solve real-world problems and delivering cutting-edge web and Web3 solutions for modern businesses.
             </p>
 
             {/* Video introduction */}
@@ -145,7 +148,7 @@ const About = () => {
               <div className="aspect-video rounded-lg overflow-hidden border border-white/10 glass-morphism flex items-center justify-center relative">
                 <video 
                   controls 
-                  poster="/lovable-uploads/d5dd2719-1c0c-4de2-a474-c5ca06b2fd9e.png"
+                  poster="/lovable-uploads/0014c797-97a9-4ef8-970f-7fbbd8d7b43b.png"
                   className="w-full h-full object-cover"
                 >
                   <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
@@ -169,4 +172,3 @@ const About = () => {
 };
 
 export default About;
-
