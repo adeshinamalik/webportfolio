@@ -5,31 +5,27 @@ import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 const Timeline = () => {
   const timelineItems = [
     { 
-      year: "2018", 
-      title: "Started Web Development", 
-      description: "Beginning of my journey in frontend development with HTML, CSS, JavaScript" 
-    },
-    { 
-      year: "2019", 
-      title: "Mastered React", 
-      description: "Gained expertise in React and modern frontend frameworks" 
-    },
-    { 
-      year: "2020", 
-      title: "Entered Web3 Space", 
-      description: "Started learning Blockchain technology and Solidity" 
-    },
-    { 
       year: "2022", 
-      title: "Full Stack Skills", 
-      description: "Expanded skill set to include full stack development with NextJS and Node" 
+      title: "Got Started with Web Design & Development", 
+      description: "Began my journey into tech by learning web design principles and building static websites using HTML, CSS, and JavaScript." 
     },
     { 
       year: "2023", 
-      title: "Advanced Web3 Projects", 
-      description: "Created DApps, smart contracts, and NFT marketplaces"
+      title: "Specialized in React & Modern Frontend Tools", 
+      description: "Mastered React.js, Tailwind CSS, and Next.js. Built responsive web apps with dynamic interfaces and clean UI/UX." 
+    },
+    { 
+      year: "2024", 
+      title: "Full Stack Skills & Exploring Web3", 
+      description: "Expanded into backend development with Node.js and Express. Began exploring Web3 and smart contract development." 
+    },
+    { 
+      year: "2025", 
+      title: "Freelancing & Offering Web Services", 
+      description: "Started offering services in Web Design, Web Development, and Web3 Development, helping businesses launch modern digital products." 
     },
   ];
+  
 
   return (
     <div className="space-y-10 my-10">

@@ -22,7 +22,7 @@ const Footer = () => {
           
           <div className="flex items-center space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/adeshinamalik" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -32,7 +32,7 @@ const Footer = () => {
             </a>
             
             <a 
-              href="https://twitter.com" 
+              href="https://x.com/Ahmed_malik19" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="Twitter"
@@ -42,7 +42,7 @@ const Footer = () => {
             </a>
             
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/malikatonda" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
             
             <a 
-              href="mailto:contact@example.com" 
+              href="mailto:atondaahmed@gmail.com" 
               aria-label="Email"
               className="hover:text-white transition-colors"
             >

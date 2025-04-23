@@ -164,7 +164,7 @@ const Contact = () => {
                 className="flex items-center gap-3 p-3 neo-blur rounded-lg hover:bg-white/5 transition-all"
               >
                 <Mail className="w-5 h-5 text-neon-blue" />
-                <span>contact@example.com</span>
+                <span>atondaahmed@gmail.com</span>
               </a>
               
               <a 
@@ -174,7 +174,7 @@ const Contact = () => {
                 className="flex items-center gap-3 p-3 neo-blur rounded-lg hover:bg-white/5 transition-all"
               >
                 <Github className="w-5 h-5 text-neon-blue" />
-                <span>github.com/username</span>
+                <span>github.com/adeshinamalik</span>
               </a>
               
               <a 
@@ -184,7 +184,7 @@ const Contact = () => {
                 className="flex items-center gap-3 p-3 neo-blur rounded-lg hover:bg-white/5 transition-all"
               >
                 <Linkedin className="w-5 h-5 text-neon-blue" />
-                <span>linkedin.com/in/username</span>
+                <span>linkedin.com/in/malikatonda</span>
               </a>
               
               <a 
@@ -194,7 +194,7 @@ const Contact = () => {
                 className="flex items-center gap-3 p-3 neo-blur rounded-lg hover:bg-white/5 transition-all"
               >
                 <Twitter className="w-5 h-5 text-neon-blue" />
-                <span>twitter.com/username</span>
+                <span>x.com/Ahmed_malik19</span>
               </a>
               
               <div className="p-3 neo-blur rounded-lg">
